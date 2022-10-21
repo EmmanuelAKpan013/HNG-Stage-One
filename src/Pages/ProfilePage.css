@@ -22,15 +22,22 @@
   height: 100%;
 }
 
-.profile_links_container {
-  margin: 40px auto 0 auto;
-  width: 80%;
-  border: 1px solid black;
-}
-
 .profile_name {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
+}
+
+.profile_links_container {
+  margin: 10px auto 0 auto;
+  width: 80%;
+  border: 1px solid black;
+}
+
+.social_icons {
+  height: 100px;
+  width: 100px;
+  background: #000;
+  margin: 0 auto;
 }

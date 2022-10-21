@@ -14,6 +14,7 @@ function ProfilePage() {
       </div>
       <div className="profile_links_container">
         <MediaListCard />
+        <div className="social_icons"></div>
       </div>
     </div>
   );
