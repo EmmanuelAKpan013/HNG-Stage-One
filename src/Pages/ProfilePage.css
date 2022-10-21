@@ -56,3 +56,9 @@
   margin: 10px auto 0 auto;
   /* border: 1px solid red; */
 }
+
+.profile_footer_container {
+  margin: 0 auto;
+  width: 85%;
+  border: 1px solid red;
+}

@@ -5,6 +5,7 @@ import ProfilePicture from "../images/emma.jpg";
 import ShareIcon from "../images/shareIcon.png";
 import slackIcon from "../images/slackIcon.png";
 import gitHubIcon from "../images/githubIcon.png";
+import Footer from "../components/Footer";
 
 function ProfilePage() {
   return (
@@ -28,6 +29,9 @@ function ProfilePage() {
             <img src={gitHubIcon} alt="" />
           </div>
         </div>
+      </div>
+      <div className="profile_footer_container">
+        <Footer />
       </div>
     </div>
   );
