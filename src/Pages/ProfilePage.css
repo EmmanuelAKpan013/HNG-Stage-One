@@ -4,7 +4,7 @@
 
 .profile_picture_and_name {
   position: relative;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 50px auto 0 auto;
   text-align: center;
 }
@@ -13,7 +13,7 @@
   margin: 0 auto;
   height: 100px;
   width: 100px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   /* background: black; */
 }
 
@@ -31,15 +31,22 @@
 }
 
 .profile_shareIcon {
-  position: relative;
-  top: -150px;
-  left: 450px;
+  position: absolute;
+  top: 0px;
+  right: 350px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px dashed #d0d5dd;
+  border-radius: 50%;
 }
 
 .profile_links_container {
   margin: 10px auto 30px auto;
   width: 80%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .social_icons {
@@ -47,5 +54,5 @@
   justify-content: space-around;
   width: 9%;
   margin: 10px auto 0 auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
