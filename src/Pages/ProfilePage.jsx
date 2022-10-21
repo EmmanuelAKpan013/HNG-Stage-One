@@ -10,9 +10,7 @@ function ProfilePage() {
         <div className="profile_picture_container">
           <img src={ProfilePicture} alt="" id="profile__img" />
         </div>
-        <p>
-          <b>Emmanuel Akpan</b>
-        </p>
+        <p className="profile_name">Emmanuel Akpan</p>
       </div>
       <div className="profile_links_container">
         <MediaListCard />

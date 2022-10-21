@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
 .link_button {
   width: 100%;
   height: 50px;
@@ -5,6 +7,10 @@
   border: 1px solid #eaecf0;
   border-radius: 8px;
   background: #eaecf0;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
 }
 
 .link_button a {
