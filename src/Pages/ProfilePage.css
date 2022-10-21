@@ -43,6 +43,10 @@
   border-radius: 50%;
 }
 
+.profile_dottedIcon {
+  display: none;
+}
+
 .profile_links_container {
   margin: 10px auto 30px auto;
   width: 80%;
@@ -62,11 +66,15 @@
 
 @media screen and (max-width: 480px) {
   .profile_shareIcon {
+    display: none;
+  }
+
+  .profile_dottedIcon {
     position: absolute;
     top: 0px;
     right: 30px;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;

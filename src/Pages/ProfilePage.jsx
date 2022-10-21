@@ -3,6 +3,7 @@ import "./ProfilePage.css";
 import MediaListCard from "../components/MediaListCard";
 import ProfilePicture from "../images/emma.jpg";
 import ShareIcon from "../images/shareIcon.png";
+import DottedIcon from "../images/DottedIcon.png";
 import slackIcon from "../images/slackIcon.png";
 import gitHubIcon from "../images/githubIcon.png";
 import Footer from "../components/Footer";
@@ -17,6 +18,9 @@ function ProfilePage() {
         <p className="profile_name">Emmanuel Akpan</p>
         <div className="profile_shareIcon">
           <img src={ShareIcon} alt="" />
+        </div>
+        <div className="profile_dottedIcon">
+          <img src={DottedIcon} alt="" />
         </div>
       </div>
       <div className="profile_links_container">
