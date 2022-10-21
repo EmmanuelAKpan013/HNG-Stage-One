@@ -3,6 +3,7 @@
 }
 
 .profile_picture_and_name {
+  position: relative;
   border: 1px solid red;
   margin: 50px auto 0 auto;
   text-align: center;
@@ -27,6 +28,12 @@
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
+}
+
+.profile_shareIcon {
+  position: relative;
+  top: -150px;
+  left: 450px;
 }
 
 .profile_links_container {

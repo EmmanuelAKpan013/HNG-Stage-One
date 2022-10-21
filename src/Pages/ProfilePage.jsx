@@ -14,6 +14,9 @@ function ProfilePage() {
           <img src={ProfilePicture} alt="" id="profile__img" />
         </div>
         <p className="profile_name">Emmanuel Akpan</p>
+        <div className="profile_shareIcon">
+          <img src={ShareIcon} alt="" />
+        </div>
       </div>
       <div className="profile_links_container">
         <MediaListCard />
