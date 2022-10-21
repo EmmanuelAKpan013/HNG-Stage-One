@@ -6,10 +6,17 @@ import ProfilePicture from "../images/emma.jpg";
 function ProfilePage() {
   return (
     <div className="Profile_container">
-      <div className="profile_picture_container">
-        <img src={ProfilePicture} alt="" id="profile__img" />
+      <div className="profile_picture_and_name">
+        <div className="profile_picture_container">
+          <img src={ProfilePicture} alt="" id="profile__img" />
+        </div>
+        <p>
+          <b>Emmanuel Akpan</b>
+        </p>
       </div>
-      <MediaListCard />
+      <div className="profile_links_container">
+        <MediaListCard />
+      </div>
     </div>
   );
 }

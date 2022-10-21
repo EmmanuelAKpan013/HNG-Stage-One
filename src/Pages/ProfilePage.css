@@ -2,14 +2,28 @@
   background: #ffffff;
 }
 
+.profile_picture_and_name {
+  border: 1px solid red;
+  margin: 50px auto 0 auto;
+  text-align: center;
+}
+
 .profile_picture_container {
+  margin: 0 auto;
   height: 100px;
   width: 100px;
-  background: black;
+  border: 1px solid black;
+  /* background: black; */
 }
 
 .profile_picture_container img {
   border-radius: 50%;
   width: 100%;
   height: 100%;
+}
+
+.profile_links_container {
+  margin: 40px auto 0 auto;
+  width: 80%;
+  border: 1px solid black;
 }

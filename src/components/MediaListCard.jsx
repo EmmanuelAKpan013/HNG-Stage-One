@@ -1,9 +1,15 @@
+import { useState, useEffect } from "react";
 import "./MediaListCard.css";
-
-import React from "react";
+import DataJson from "../data/data.json";
 
 function MediaListCard() {
-  return <div>MediaListCard</div>;
+  const [jsonData, setJsonData] = useState(DataJson);
+
+  useEffect(() => {
+    setJsonData(jsonData);
+  }, [jsonData]);
+
+  return <div>{}</div>;
 }
 
 export default MediaListCard;
