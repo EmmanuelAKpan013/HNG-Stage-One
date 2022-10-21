@@ -6,4 +6,6 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
+  padding: 10px 0;
+  border-top: 1px solid #667085;
 }
