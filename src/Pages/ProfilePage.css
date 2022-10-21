@@ -30,14 +30,15 @@
 }
 
 .profile_links_container {
-  margin: 10px auto 0 auto;
+  margin: 10px auto 30px auto;
   width: 80%;
   border: 1px solid black;
 }
 
 .social_icons {
-  height: 100px;
-  width: 100px;
-  background: #000;
-  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  width: 9%;
+  margin: 10px auto 0 auto;
+  border: 1px solid red;
 }

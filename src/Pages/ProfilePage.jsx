@@ -2,6 +2,9 @@ import React from "react";
 import "./ProfilePage.css";
 import MediaListCard from "../components/MediaListCard";
 import ProfilePicture from "../images/emma.jpg";
+import ShareIcon from "../images/shareIcon.png";
+import slackIcon from "../images/slackIcon.png";
+import gitHubIcon from "../images/githubIcon.png";
 
 function ProfilePage() {
   return (
@@ -14,7 +17,14 @@ function ProfilePage() {
       </div>
       <div className="profile_links_container">
         <MediaListCard />
-        <div className="social_icons"></div>
+        <div className="social_icons">
+          <div>
+            <img src={slackIcon} alt="" />
+          </div>
+          <div>
+            <img src={gitHubIcon} alt="" />
+          </div>
+        </div>
       </div>
     </div>
   );
