@@ -1,10 +1,12 @@
 import { useState, useEffect } from "react";
+// import { useNavigate } from "react-router-dom";
 import "./MediaListCard.css";
 import DataJson from "../data/data.json";
 
 function MediaListCard() {
   const [jsonData, setJsonData] = useState(DataJson[0].profileDetails);
-  console.log(jsonData);
+
+  //   const navigate = useNavigate();
 
   useEffect(() => {
     setJsonData(jsonData);
@@ -15,7 +17,9 @@ function MediaListCard() {
       {jsonData.map((item, index) => {
         return (
           <button key={index} className="link_button" id={item.id}>
-            {item.name}
+            <a href={`${item.link}`} target="_blank" rel="noreferrer">
+              {item.name}
+            </a>
           </button>
         );
       })}
