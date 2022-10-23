@@ -6,6 +6,7 @@ function App() {
     <>
       <Router>
         <Routes>
+          <Route path="/" element={<ProfilePage />}></Route>
           <Route path="/profile" element={<ProfilePage />}></Route>
         </Routes>
       </Router>
