@@ -14,6 +14,8 @@ function MediaListCard() {
 
   return (
     <>
+      {/* Load data from Json file */}
+
       {jsonData.map((item, index) => {
         return (
           <button key={index} className="link_button" id={item.id}>
