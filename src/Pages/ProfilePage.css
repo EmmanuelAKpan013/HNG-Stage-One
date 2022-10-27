@@ -90,11 +90,11 @@
     border-radius: 50%;
   }
 
-  .social_icons {
-    display: none;
+  .social_icons > div {
+    margin: 20px 10px;
   }
 
-  .profile_footer_container {
+  /* .profile_footer_container {
     display: none;
-  }
+  } */
 }

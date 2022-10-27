@@ -9,3 +9,12 @@
   padding: 10px 0;
   border-top: 1px solid #667085;
 }
+
+@media screen and (max-width: 480px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
