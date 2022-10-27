@@ -43,7 +43,7 @@ function ProfilePage() {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={gitHubIcon} alt="" />
+              <img src={gitHubIcon} alt="gitHub_logo" />
             </a>
           </div>
         </div>

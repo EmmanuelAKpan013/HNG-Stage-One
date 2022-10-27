@@ -15,11 +15,16 @@ function MediaListCard() {
 
       {jsonData.map((item, index) => {
         return (
-          <button key={index} className="link_button" id={item.id}>
-            <a href={`${item.link}`} target="_blank" rel="noreferrer">
-              {item.name}
-            </a>
-          </button>
+          <a
+            href={`${item.link}`}
+            target="_blank"
+            rel="noreferrer"
+            id={item.id}
+            className="link_button"
+            key={index}
+          >
+            {item.name}
+          </a>
         );
       })}
     </>
