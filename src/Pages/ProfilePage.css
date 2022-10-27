@@ -59,6 +59,14 @@
   margin: 20px auto 0 auto;
 }
 
+#slack {
+  cursor: pointer;
+}
+
+#github {
+  cursor: pointer;
+}
+
 .profile_footer_container {
   margin: 90px auto 20px auto;
   width: 85%;

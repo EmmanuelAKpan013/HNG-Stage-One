@@ -27,10 +27,24 @@ function ProfilePage() {
         <MediaListCard />
         <div className="social_icons">
           <div>
-            <img src={slackIcon} alt="" />
+            <a
+              href="https://app.slack.com/client/T042F7V19Q8/D0489GA9H61/rimeto_profile/U048CEXLZH8"
+              target="_blank"
+              rel="noreferrer"
+              // id="slack"
+            >
+              <img src={slackIcon} alt="slack_logo" />
+            </a>
           </div>
           <div>
-            <img src={gitHubIcon} alt="" />
+            <a
+              href="https://github.com/EmmanuelAKpan013"
+              id="github"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={gitHubIcon} alt="" />
+            </a>
           </div>
         </div>
       </div>
