@@ -163,11 +163,7 @@
     align-items: center;
     width: 100%;
     margin: 50px auto 0 auto;
-    /* margin-top: 50px; */
     color: #344054;
-    /* display: none; */
-
-    /* border: 1px solid red; */
   }
 
   .name-container {
@@ -175,22 +171,17 @@
     flex-direction: column;
     gap: 10px;
     width: 100%;
-    /* display: none; */
-
-    /* border: 1px solid green; */
   }
 
   .name-field {
     font: 18px;
     padding-left: 10px;
-    /* width: 348px; */
     width: 90%;
     height: 44px;
     background: #ffffff;
     border: 1px solid #d0d5dd;
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
     border-radius: 8px;
-    /* display: none; */
   }
 
   .email {
@@ -198,8 +189,6 @@
     flex-direction: column;
     gap: 10px;
     color: #344054;
-    /* border: 1px solid red; */
-    /* display: none; */
   }
 
   .email-field {
@@ -212,7 +201,6 @@
     border: 1px solid #d0d5dd;
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
     border-radius: 8px;
-    /* display: none; */
   }
 
   .message {
@@ -220,7 +208,6 @@
     flex-direction: column;
     gap: 10px;
     color: #344054;
-    /* display: none; */
   }
 
   .message-field {
@@ -233,7 +220,6 @@
     height: 122px;
     font-family: "Inter";
     font-style: normal;
-    /* display: none; */
   }
 
   .checkbox-agreement label {
@@ -256,12 +242,10 @@
     font-weight: 600;
     font-size: 16px;
     margin-bottom: 60px;
-    /* display: none; */
   }
 
   .contact-footer {
     margin: 0 auto;
     width: 90%;
-    /* display: none; */
   }
 }
