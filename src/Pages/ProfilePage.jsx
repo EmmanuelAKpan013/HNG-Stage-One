@@ -1,4 +1,5 @@
-import React from "react";
+import { Link } from "react-router-dom";
+
 import "./ProfilePage.css";
 import MediaListCard from "../components/MediaListCard";
 import ProfilePicture from "../images/emma.jpg";
@@ -25,6 +26,10 @@ function ProfilePage() {
       </div>
       <div className="profile_links_container">
         <MediaListCard />
+        <Link to="/contact" className="link_button" id="contact">
+          Contact Me
+        </Link>
+
         <div className="social_icons">
           <div>
             <a
