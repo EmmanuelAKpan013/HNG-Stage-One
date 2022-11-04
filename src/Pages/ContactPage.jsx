@@ -53,6 +53,13 @@ function ContactPage() {
               className="message-field"
             ></textarea>
           </div>
+          <div className="checkbox-agreement">
+            <input type="checkbox" id="agree" name="agree" required />
+            <label htmlFor="agree">
+              You agree to providing your data to Emmanuel Akpan who may contact
+              you.
+            </label>
+          </div>
         </form>
       </div>
     </div>

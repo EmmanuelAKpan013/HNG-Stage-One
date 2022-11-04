@@ -79,3 +79,11 @@
   padding: 10px 10px;
   height: 122px;
 }
+
+.checkbox-agreement label {
+  color: #475467;
+}
+
+.checkbox-agreement input {
+  margin-right: 10px;
+}
