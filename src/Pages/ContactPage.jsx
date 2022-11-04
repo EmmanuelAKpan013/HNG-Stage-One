@@ -9,22 +9,22 @@ function ContactPage() {
         <form action="">
           <div className="first-last-name">
             <div className="name-container">
-              <label htmlFor="firstname">First name</label>
+              <label htmlFor="first_name">First name</label>
               <input
                 type="text"
-                name="firstname"
-                id="firstname"
+                name="first_name"
+                id="first_name"
                 placeholder="Enter your first name"
                 required
                 className="name-field"
               />
             </div>
             <div className="name-container">
-              <label htmlFor="lastname">Last name</label>
+              <label htmlFor="last_name">Last name</label>
               <input
                 type="text"
-                name="lastname"
-                id="lastname"
+                name="last_name"
+                id="last_name"
                 placeholder="Enter your last name"
                 required
                 className="name-field"
@@ -60,6 +60,9 @@ function ContactPage() {
               you.
             </label>
           </div>
+          <button type="submit" id="btn__submit">
+            Send message
+          </button>
         </form>
       </div>
     </div>
