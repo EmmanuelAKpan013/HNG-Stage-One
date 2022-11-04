@@ -6,8 +6,13 @@ function ContactPage() {
     <>
       <div className="contact-me_container">
         <div className="contact-me_section">
-          <h2>Contact Me</h2>
-          <p>Hi there, contact me to ask me about anything you have in mind.</p>
+          <div className="contact-me-text">
+            <h2>Contact Me</h2>
+            <p>
+              Hi there, contact me to ask me about anything you have in mind.
+            </p>
+          </div>
+
           <form action="">
             <div className="first-last-name">
               <div className="name-container">
