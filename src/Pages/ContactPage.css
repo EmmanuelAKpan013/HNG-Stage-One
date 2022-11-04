@@ -1,0 +1,50 @@
+.contact-me_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.first-last-name {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  width: auto;
+  margin-top: 50px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  /* font-size: 14px; */
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* Gray/700 */
+
+  color: #344054;
+  /* border: 1px solid red; */
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* border: 1px solid green; */
+  /* height: 50px; */
+  width: 500px;
+}
+
+.name-field {
+  font: 18px;
+  /* width: 90%; */
+  padding-left: 10px;
+  width: 348px;
+  height: 44px;
+  /* margin-top: 8px; */
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
