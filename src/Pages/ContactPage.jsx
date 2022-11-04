@@ -15,6 +15,7 @@ function ContactPage() {
                 name="firstname"
                 id="firstname"
                 placeholder="Enter your first name"
+                required
                 className="name-field"
               />
             </div>
@@ -24,9 +25,22 @@ function ContactPage() {
                 type="text"
                 name="lastname"
                 id="lastname"
+                placeholder="Enter your last name"
+                required
                 className="name-field"
               />
             </div>
+          </div>
+          <div className="email">
+            <label htmlFor="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="yourname@email.com"
+              required
+              className="email-field"
+            />
           </div>
         </form>
       </div>
