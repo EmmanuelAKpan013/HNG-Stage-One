@@ -42,6 +42,17 @@ function ContactPage() {
               className="email-field"
             />
           </div>
+          <div className="message">
+            <label htmlFor="message">Message</label>
+            <textarea
+              name="textarea"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Send me a message and I'll reply you as soon as possible..."
+              className="message-field"
+            ></textarea>
+          </div>
         </form>
       </div>
     </div>
