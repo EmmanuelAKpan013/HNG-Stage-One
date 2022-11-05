@@ -2,6 +2,7 @@ import "./ContactPage.css";
 import Footer from "../components/Footer";
 
 function ContactPage() {
+  const name = "Emmanuel Akpan ";
   return (
     <>
       <div className="contact-me_container">
@@ -63,8 +64,7 @@ function ContactPage() {
             <div className="checkbox-agreement">
               <input type="checkbox" id="agree" name="agree" required />
               <label htmlFor="agree">
-                You agree to providing your data to Emmanuel Akpan who may
-                contact you.
+                You agree to providing your data to {name} who may contact you.
               </label>
             </div>
             <button type="submit" id="btn__submit">
